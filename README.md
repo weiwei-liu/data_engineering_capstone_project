@@ -29,6 +29,7 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     Each file with the size of 500Mb and roughly has 3 million rows.
 
     * Sample:
+ 
 |         |       cicid |   i94yr |   i94mon |   i94cit |   i94res | i94port   |   arrdate |   i94mode | i94addr   |   depdate |   i94bir |   i94visa |   count |   dtadfile | visapost   |   occup | entdepa   | entdepd   |   entdepu | matflag   |   biryear |   dtaddto | gender   |   insnum | airline   |      admnum |   fltno | visatype   |
 |--------:|------------:|--------:|---------:|---------:|---------:|:----------|----------:|----------:|:----------|----------:|---------:|----------:|--------:|-----------:|:-----------|--------:|:----------|:----------|----------:|:----------|----------:|----------:|:---------|---------:|:----------|------------:|--------:|:-----------|
 | 1397736 | 2.86358e+06 |    2016 |        4 |      689 |      689 | MIA       |     20559 |         1 | FL        |     20569 |       10 |         2 |       1 |   20160415 | SPL        |     nan | G         | O         |       nan | M         |      2006 |  10142016 | F        |      nan | JJ        | 9.36397e+10 |   08094 | B2         |
@@ -39,6 +40,7 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     * Description:
     This dataset contains information about the demographics of all US cities and census-designated places with a population greater or equal to 65,000. This data comes from the US Census Bureau's 2015 American Community Survey.
     * Sample:
+
     |      | City         | State      |   Median Age |   Male Population |   Female Population |   Total Population |   Number of Veterans |   Foreign-born |   Average Household Size | State Code   | Race               |   Count |
 |-----:|:-------------|:-----------|-------------:|------------------:|--------------------:|-------------------:|---------------------:|---------------:|-------------------------:|:-------------|:-------------------|--------:|
 |  629 | Arden-Arcade | California |         41.5 |             47596 |               48680 |              96276 |                 6511 |          13458 |                     2.18 | CA           | White              |   69369 |
@@ -51,6 +53,7 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     * Description:
     This is a simple table of airport codes and corresponding cities.
     * Sample
+    
     |       | ident   | type          | name                   |   elevation_ft |   continent | iso_country   | iso_region   | municipality   | gps_code   |   iata_code | local_code   | coordinates                           |
 |------:|:--------|:--------------|:-----------------------|---------------:|------------:|:--------------|:-------------|:---------------|:-----------|------------:|:-------------|:--------------------------------------|
 |  1613 | 16Z     | seaplane_base | Mc Grath Seaplane Base |            325 |         nan | US            | US-AK        | Mcgrath        | 16Z        |         nan | 16Z          | -155.593002319, 62.9580001831         |
@@ -61,6 +64,7 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     * Description:
     ISO 3166-1-alpha-2 English country names and code elements. This list states the country names (official short names in English) in alphabetical order as given in ISO 3166-1 and the corresponding ISO 3166-1-alpha-2 code elements. [ISO 3166-1].
     * Sample
+    
     |     | Name                                         | Code   |
 |----:|:---------------------------------------------|:-------|
 |   0 | Afghanistan                                  | AF     |
