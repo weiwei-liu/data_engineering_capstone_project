@@ -104,7 +104,7 @@ Data quality checks ensure the pipeline ran as expected. Many of the Quality Che
 Create a data dictionary for the data model. For each field, a brief description of what the data is and where it came from are provided. (capstone.ipynb)
 
 
-#### Step 5: Complete Project Write Up
+### Step 5: Complete Project Write Up
 
 #### 5.1 Technology Choice
 
