@@ -42,7 +42,7 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     * Sample:
 
 
-    |      | City         | State      |   Median Age |   Male Population |   Female Population |   Total Population |   Number of Veterans |   Foreign-born |   Average Household Size | State Code   | Race               |   Count |
+|      | City         | State      |   Median Age |   Male Population |   Female Population |   Total Population |   Number of Veterans |   Foreign-born |   Average Household Size | State Code   | Race               |   Count |
 |-----:|:-------------|:-----------|-------------:|------------------:|--------------------:|-------------------:|---------------------:|---------------:|-------------------------:|:-------------|:-------------------|--------:|
 |  629 | Arden-Arcade | California |         41.5 |             47596 |               48680 |              96276 |                 6511 |          13458 |                     2.18 | CA           | White              |   69369 |
 | 1438 | Edmond       | Oklahoma   |         32.5 |             45191 |               44899 |              90090 |                 5006 |           5585 |  
@@ -56,7 +56,7 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     * Sample
 
 
-    |       | ident   | type          | name                   |   elevation_ft |   continent | iso_country   | iso_region   | municipality   | gps_code   |   iata_code | local_code   | coordinates                           |
+|       | ident   | type          | name                   |   elevation_ft |   continent | iso_country   | iso_region   | municipality   | gps_code   |   iata_code | local_code   | coordinates                           |
 |------:|:--------|:--------------|:-----------------------|---------------:|------------:|:--------------|:-------------|:---------------|:-----------|------------:|:-------------|:--------------------------------------|
 |  1613 | 16Z     | seaplane_base | Mc Grath Seaplane Base |            325 |         nan | US            | US-AK        | Mcgrath        | 16Z        |         nan | 16Z          | -155.593002319, 62.9580001831         |
 | 10090 | 9NC7    | small_airport | Willow Creek Airport   |            572 |         nan | US            | US-NC        | Mt Pleasant    | 9NC7       |         nan | 9NC7         | -80.44000244140625, 35.36970138549805 |
@@ -69,7 +69,7 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
 
 
     
-    |     | Name                                         | Code   |
+|     | Name                                         | Code   |
 |----:|:---------------------------------------------|:-------|
 |   0 | Afghanistan                                  | AF     |
 |   1 | Åland Islands                                | AX     |
