@@ -41,6 +41,7 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     This dataset contains information about the demographics of all US cities and census-designated places with a population greater or equal to 65,000. This data comes from the US Census Bureau's 2015 American Community Survey.
     * Sample:
 
+
     |      | City         | State      |   Median Age |   Male Population |   Female Population |   Total Population |   Number of Veterans |   Foreign-born |   Average Household Size | State Code   | Race               |   Count |
 |-----:|:-------------|:-----------|-------------:|------------------:|--------------------:|-------------------:|---------------------:|---------------:|-------------------------:|:-------------|:-------------------|--------:|
 |  629 | Arden-Arcade | California |         41.5 |             47596 |               48680 |              96276 |                 6511 |          13458 |                     2.18 | CA           | White              |   69369 |
@@ -53,7 +54,8 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     * Description:
     This is a simple table of airport codes and corresponding cities.
     * Sample
-    
+
+
     |       | ident   | type          | name                   |   elevation_ft |   continent | iso_country   | iso_region   | municipality   | gps_code   |   iata_code | local_code   | coordinates                           |
 |------:|:--------|:--------------|:-----------------------|---------------:|------------:|:--------------|:-------------|:---------------|:-----------|------------:|:-------------|:--------------------------------------|
 |  1613 | 16Z     | seaplane_base | Mc Grath Seaplane Base |            325 |         nan | US            | US-AK        | Mcgrath        | 16Z        |         nan | 16Z          | -155.593002319, 62.9580001831         |
@@ -64,6 +66,8 @@ The main tools used in this project are Python, Pandas, Pyspark, SQL, S3, Airflo
     * Description:
     ISO 3166-1-alpha-2 English country names and code elements. This list states the country names (official short names in English) in alphabetical order as given in ISO 3166-1 and the corresponding ISO 3166-1-alpha-2 code elements. [ISO 3166-1].
     * Sample
+
+
     
     |     | Name                                         | Code   |
 |----:|:---------------------------------------------|:-------|
