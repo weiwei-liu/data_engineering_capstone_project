@@ -29,7 +29,7 @@ def create_spark_session():
 
     spark = SparkSession \
                         .builder \
-                        .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.2.0,saurfang:spark-sas7bdat:3.0.0-s_2.12") \
+                        .config("spark.jars.packages", "org.apache.hadoop:hadoop-aws:3.2.2,saurfang:spark-sas7bdat:3.0.0-s_2.12") \
                         .config("spark.jars.repositories", "https://repos.spark-packages.org/") \
                         .config('spark.hadoop.fs.s3a.aws.credentials.provider', 'org.apache.hadoop.fs.s3a.SimpleAWSCredentialsProvider') \
                         .config('spark.hadoop.fs.s3a.access.key', AWS_ACCESS_KEY_ID) \
